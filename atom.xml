@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-27T08:15:25.371Z</updated>
+  <updated>2020-11-28T08:53:32.251Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>pwn 学习</title>
-    <link href="http://example.com/2020/11/27/pwn-%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://example.com/2020/11/27/pwn-%E5%AD%A6%E4%B9%A0/</id>
-    <published>2020-11-27T08:15:25.000Z</published>
-    <updated>2020-11-27T08:15:25.371Z</updated>
+    <link href="http://example.com/2020/11/28/pwn-%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2020/11/28/pwn-%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-11-28T08:53:32.000Z</published>
+    <updated>2020-11-28T08:53:32.251Z</updated>
     
     
     
@@ -31,22 +31,31 @@
   
   <entry>
     <title>re 学习</title>
-    <link href="http://example.com/2020/11/23/My-New-Post/"/>
-    <id>http://example.com/2020/11/23/My-New-Post/</id>
-    <published>2020-11-23T10:58:45.760Z</published>
-    <updated>2020-11-28T08:27:57.911Z</updated>
+    <link href="http://example.com/2020/11/28/re-%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://example.com/2020/11/28/re-%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-11-28T08:53:09.000Z</published>
+    <updated>2020-11-28T09:07:15.567Z</updated>
     
-    <content type="html"><![CDATA[<p>date: 2020-11-23 18:58:45<br>tags: </p><ol><li>getit（攻防世界）<br>首先在liunx 上 使用file 命令打开文件<br><img src="./1.txt.php" alt="节点"></li></ol>]]></content>
+    <content type="html"><![CDATA[<h3 id="攻防世界"><a href="#攻防世界" class="headerlink" title="攻防世界"></a>攻防世界</h3><h2 id="getit"><a href="#getit" class="headerlink" title="getit"></a>getit</h2><p>下载完文件后改名为lll，在linux中用file lll 命令查看文件<br><img src="/.com//22.jpg"><br>可知文件为elf文件，64位，拖入64位ida中进行反编译<br>查看主函数<br><img src><br>可以发现生成了一个flag.txt文件不过是在/tmp文件夹下的临时文件，最后还有remove 删除掉了文件，可以尝试在 remove处使用 gdb动态调试断点</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;date: 2020-11-23 18:58:45&lt;br&gt;tags: &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;getit（攻防世界）&lt;br&gt;首先在liunx 上 使用file 命令打开文件&lt;br&gt;&lt;img src=&quot;./1.txt.php&quot; alt=&quot;节点&quot;&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</summary>
+    <summary type="html">&lt;h3 id=&quot;攻防世界&quot;&gt;&lt;a href=&quot;#攻防世界&quot; class=&quot;headerlink&quot; title=&quot;攻防世界&quot;&gt;&lt;/a&gt;攻防世界&lt;/h3&gt;&lt;h2 id=&quot;getit&quot;&gt;&lt;a href=&quot;#getit&quot; class=&quot;headerlink&quot; title=&quot;getit&quot;&gt;</summary>
       
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>学习报告</title>
+    <link href="http://example.com/2020/11/28/%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/"/>
+    <id>http://example.com/2020/11/28/%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A/</id>
+    <published>2020-11-28T08:51:56.000Z</published>
+    <updated>2020-11-28T08:51:56.145Z</updated>
+    
     
     
     
