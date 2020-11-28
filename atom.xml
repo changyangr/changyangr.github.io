@@ -34,16 +34,16 @@
     <link href="http://example.com/2020/11/23/My-New-Post/"/>
     <id>http://example.com/2020/11/23/My-New-Post/</id>
     <published>2020-11-23T10:58:45.760Z</published>
-    <updated>2020-11-27T08:13:21.820Z</updated>
+    <updated>2020-11-28T08:27:57.911Z</updated>
     
-    <content type="html"><![CDATA[<p>date: 2020-11-23 18:58:45<br>tags: </p><ol><li>getit（攻防世界）</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>date: 2020-11-23 18:58:45<br>tags: </p><ol><li>getit（攻防世界）<br>首先在liunx 上 使用file 命令打开文件<br><img src="./1.txt.php" alt="节点"></li></ol>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;date: 2020-11-23 18:58:45&lt;br&gt;tags: &lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;getit（攻防世界）&lt;/li&gt;
+&lt;li&gt;getit（攻防世界）&lt;br&gt;首先在liunx 上 使用file 命令打开文件&lt;br&gt;&lt;img src=&quot;./1.txt.php&quot; alt=&quot;节点&quot;&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </summary>
       
