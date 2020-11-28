@@ -34,9 +34,9 @@
     <link href="http://example.com/2020/11/28/re-%E5%AD%A6%E4%B9%A0/"/>
     <id>http://example.com/2020/11/28/re-%E5%AD%A6%E4%B9%A0/</id>
     <published>2020-11-28T08:53:09.000Z</published>
-    <updated>2020-11-28T09:07:15.567Z</updated>
+    <updated>2020-11-28T09:12:30.885Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="攻防世界"><a href="#攻防世界" class="headerlink" title="攻防世界"></a>攻防世界</h3><h2 id="getit"><a href="#getit" class="headerlink" title="getit"></a>getit</h2><p>下载完文件后改名为lll，在linux中用file lll 命令查看文件<br><img src="/.com//22.jpg"><br>可知文件为elf文件，64位，拖入64位ida中进行反编译<br>查看主函数<br><img src><br>可以发现生成了一个flag.txt文件不过是在/tmp文件夹下的临时文件，最后还有remove 删除掉了文件，可以尝试在 remove处使用 gdb动态调试断点</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="攻防世界"><a href="#攻防世界" class="headerlink" title="攻防世界"></a>攻防世界</h3><h2 id="getit"><a href="#getit" class="headerlink" title="getit"></a>getit</h2><p>下载完文件后改名为lll，在linux中用file lll 命令查看文件<br><img src="/.com//QQ%E5%9B%BE%E7%89%8720201128171157.png"><br>可知文件为elf文件，64位，拖入64位ida中进行反编译<br>查看主函数<br><img src><br>可以发现生成了一个flag.txt文件不过是在/tmp文件夹下的临时文件，最后还有remove 删除掉了文件，可以尝试在 remove处使用 gdb动态调试断点</p>]]></content>
     
     
       
