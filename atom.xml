@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-28T08:30:02.038Z</updated>
+  <updated>2021-10-28T08:33:58.342Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2021/10/28/%E9%87%8D%E6%96%B0%E5%81%9A%E4%BA%BA%E4%B9%8B-pwn-%E6%A0%88%E6%BA%A2%E5%87%BA/"/>
     <id>http://example.com/2021/10/28/%E9%87%8D%E6%96%B0%E5%81%9A%E4%BA%BA%E4%B9%8B-pwn-%E6%A0%88%E6%BA%A2%E5%87%BA/</id>
     <published>2021-10-28T06:27:45.000Z</published>
-    <updated>2021-10-28T08:30:02.038Z</updated>
+    <updated>2021-10-28T08:33:58.342Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="格式化字符串"><a href="#格式化字符串" class="headerlink" title="格式化字符串"></a>格式化字符串</h2><pre><code>&lt;font color=red&gt; 格式化字符串是一个使 printf 类函数 错误的漏洞，虽然利用方法（对我来说）较难，但是利用方式却多样。&lt;/font&gt;</code></pre>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="格式化字符串"><a href="#格式化字符串" class="headerlink" title="格式化字符串"></a>格式化字符串</h2> <font color="red">    格式化字符串是一个使 printf 类函数 错误的漏洞，虽然利用方法（对我来说）较难，但是利用方式却多样。      </font>  格式化字符串 漏洞 ：  ]]></content>
     
     
       
