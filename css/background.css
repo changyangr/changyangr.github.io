@@ -1,4 +1,4 @@
-#web_bg {
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>#web_bg {
     /* webkit内核 5.1 - 6.0 */
     background: -webkit-linear-gradient(left, red, blue);
     /* Opera 11.1 - 12.0 */
