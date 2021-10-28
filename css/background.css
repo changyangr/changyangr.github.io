@@ -1,32 +1,28 @@
-#web_bg {
-    /* webkit内核 5.1 - 6.0 */
-    background: -webkit-linear-gradient(left, red, blue);
-    /* Opera 11.1 - 12.0 */
-    background: -o-linear-gradient(right, red, blue);
-    /* Firefox 3.6 - 15 */
-    background: -moz-linear-gradient(right, red, blue);
-    /* 标准的语法 */
-    background: linear-gradient(to right, red, blue);
-  }
-  /* 文章页背景 */
-.layout>div:first-child:not(.recent-posts) {
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
+/* 文章页面正文背景 */
+div#post {
+  background: rgba(158, 21, 21, 0.9);
 }
-/* 所有背景（包括首页卡片、文章页、页面页等） */
-#recent-posts>.recent-post-item,.layout>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post{
-    /* 以下代表白色透明度为0.3 */
-    background: rgba(255,255,255,.3);
+
+/* 分页页面 */
+div#page {
+  background: rgba(255, 255, 255, 0.9);
 }
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
-        default;
+
+/* 归档页面 */
+div#archive {
+  background: rgba(255, 255, 255, 0.9);
 }
-a,
-img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
-        default;
+
+/* 标签页面 */
+div#tag {
+  background: rgba(255, 255, 255, 0.9);
 }
+
+/* 分类页面 */
+div#category {
+  background: rgba(255, 255, 255, 0.9);
+}
+
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 8px;
