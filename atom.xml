@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-10-29T08:39:47.963Z</updated>
+  <updated>2021-10-29T09:17:48.073Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>pwn 出现  Got EOF while reading in interactive 报错</title>
+    <link href="http://example.com/2021/10/29/pwn-Got-EOF-while-reading-in-interactive/"/>
+    <id>http://example.com/2021/10/29/pwn-Got-EOF-while-reading-in-interactive/</id>
+    <published>2021-10-29T08:54:33.000Z</published>
+    <updated>2021-10-29T09:17:48.073Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="pwn-出现-Got-EOF-while-reading-in-interactive-报错"><a href="#pwn-出现-Got-EOF-while-reading-in-interactive-报错" class="headerlink" title="pwn 出现  Got EOF while reading in interactive 报错"></a>pwn 出现  Got EOF while reading in interactive 报错</h2> <font face="黑体" color="#49b1f5" size="5"><p> 出现Got EOF while reading in interactive 的报错，就我目前为止，所遇到的，有 3 情况 :</p><ol><li>地址错误，导致没有 get shell；</li></ol></font><font color="red">地址错误的话，需要查看 libc 的版本是否是对的。一般来说 远程打不通，本地能通都是这个问题。推荐下一个 LibcSearcher ,虽然有 libc database search 网站可以查阅，但网站了里面的 libc 似乎是不全的。或则直接就是 你的地址没有找对。建议 现在本地尝试一下。 本地的 libc 加载地址是不变的。当然堆题 需要利用 libc 漏洞的话，就不建议了。 </font> <font face="黑体" color="#49b1f5" size="5"><ol start="2"><li>栈没有对齐。</li></ol></font><font color="red">栈没有对齐一般是因为 Ubuntu18.04 64位 和 部分 Ubuntu16.04 64位 调用 system 的时候，rsp 的最低字节必须为 0x00（栈以16字节对齐），否则无法运行 system 指令。<p> 要解决这个问题，只要将返回地址设置为跳过函数开头的 push rbp 就可以了。(加 ret 也同样好使。)<br> 有时候也可能是因为 ret 而导致的不能 get shell 。 有时候 ret 为奇数能 get shell ，为偶数不能。 反之亦然。<br> 所以遇到这种情况多试试就行了。<br> </p></font><p></p> <font face="黑体" color="#49b1f5" size="5"><ol start="3"><li>没有返回地址。</li></ol> </font> <font color="red"><p> 没有返回地址一样可能会造成 错误而无法 get shell。 加上就行  如：  p64(0xdeadbeef) 和 p32(0)<br> </p></font><p></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>重新做人之 pwn 栈溢出</title>
